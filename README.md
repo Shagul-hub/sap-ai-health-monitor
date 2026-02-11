@@ -1,4 +1,4 @@
-# 🏥 SAP CAP AI Health Monitor (Self-Healing System)
+# 🏥 SAP AI Health Monitor (Self-Healing System)
 
 ## 🚀 Project Overview
 This project is an **intelligent, self-healing SAP Cloud Application Programming (CAP)** system. It simulates a server health monitor that integrates with an external **Python AI Brain** to predict system failures and enables automated recovery via an SAP Fiori Dashboard.
