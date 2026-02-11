@@ -1,0 +1,32 @@
+{
+  "name": "sap-azure-health-monitor",
+  "version": "1.0.0",
+  "description": "A Hybrid SAP + Azure System Health Monitor",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@azure/storage-blob": "^12.31.0",
+    "@sap/cds": "^9.7.1",
+    "@sap/xssec": "^3",
+    "axios": "^1.7.7",
+    "dotenv": "^17.2.4",
+    "express": "^4.21.0",
+    "passport": "^0.7.0"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@sap/cds-dk": "^7"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "cds": {
+    "requires": {
+      "[production]": {
+        "db": "hana",
+        "auth": "xsuaa"
+      }
+    }
+  }
+}

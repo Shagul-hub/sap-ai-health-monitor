@@ -1,0 +1,17 @@
+# SAP CAP specific
+node_modules/
+gen/
+_out/
+.gen/
+*.db
+*.sqlite
+
+# Environment & Secrets
+.env
+default-env.json
+.cdsrc-private.json
+
+# OS & IDE
+.DS_Store
+.vscode/
+*.log
